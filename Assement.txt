@@ -1,0 +1,67 @@
+OLA Dataset – Practice Questions
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Data Cleaning Tasks
+
+* Identify and remove duplicate rows.
+* Handle missing values in driver_rating and fare_amount —
+
+- Option 1: Fill missing ratings with the driver’s average rating.
+- Option 2: Fill missing fare with median fare for that city.
+
+* Standardize the payment_method values (e.g., "card", "Card ", "CARD" → "Card").
+* Convert trip_start_time and trip_end_time to proper datetime format.
+* Remove trips where trip_duration is less than 1 minute or fare_amount is negative.
+* Extract date, day_of_week, and hour from trip_start_time.
+* Normalize pickup_location and drop_location names (remove typos).
+
+
+
+SQL Practice Questions
+
+Easy
+
+* Find total trips completed in each city.
+* Get the average fare amount for each payment method.
+* Find the total number of rides per day of the week.
+* List top 5 drivers by total number of trips.
+* Find the total revenue generated on weekends.
+* Show the total trips taken by each ride_type (Mini, Prime, Auto, etc.).
+
+Medium
+
+* Find the driver with the highest average rating in each city.
+* List customers who took more than 5 rides in July 2025.
+* Find the average trip duration per city.
+* Medium: List the top 5 drop-off locations by total revenue.
+* Show the top 3 most popular pickup locations in Mumbai.
+* Find the % of cash vs online payment rides in Bengaluru.
+
+Hard
+
+* Calculate the daily revenue growth rate for each city.
+* For each city, find the driver who earned the most in a single day.
+* Find customers who spent more than ₹5,000 in total for the month.
+* Calculate the average fare per km for each ride type.
+* Find the hour of the day with the highest number of bookings per city.
+* Find the busiest day in July 2025 by number of rides.
+
+
+--------------------------------------------------------
+
+
+Analysis & Visualization (Tableau / Power BI)
+
+* City-wise revenue comparison.
+* Ride type distribution (pie chart).
+* Daily trips trend line for the month.
+* Driver performance heatmap (rating vs trips).
+* Payment method preference by city.
+* Peak booking hours chart.
+* Top 10 customers by total spend.
+* Average fare vs distance scatter plot.
+
+
